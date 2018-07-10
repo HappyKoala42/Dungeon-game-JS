@@ -76,7 +76,7 @@ function warriorClass() {
 				break;
 
 				case TILE_GOAL:
-					console.log(blueWarrior.name+"Wins!");
+					console.log(this.name+"Wins!");
 					document.getElementById("debugText").innerHTML = this.name + " won!";
 					this.reset();;
 					loadLevel(levelOne)
