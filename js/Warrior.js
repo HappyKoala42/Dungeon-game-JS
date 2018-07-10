@@ -6,7 +6,7 @@ function warriorClass() {
 		this.ang = 0;
 		this.speed = 0;
 		this.sprite; // which picture to use
-		this.name = "Untitled Car";
+		this.name = "Untitled Player";
 
 		this.keyHeld_Up = false;
 		this.keyHeld_Down = false;
